@@ -1,0 +1,82 @@
+/*---------------
+    RESET
+---------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------
+    TYPO
+---------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------------
+    COMMON
+---------------*/
+.container {
+    margin: auto;
+    max-width: 1380px;
+}
+
+.row {
+    display: flex;
+}
+
+small {
+    font-size: 12px;
+}
+/*---------------
+    HEADER
+---------------*/
+header {
+    background-color: #FF6900;
+    color: #fff;
+}
+.header-top {
+    padding: 16px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;    
+    height: 70px;
+    background-color: #FF6900;
+}
+.header-top .row {
+    align-items: center;
+}
+.logo, .lmain-nav {
+    width: 10%;
+    padding: 0 5px;
+}
+.logo {
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+.main-nav ul li {
+    margin: 0 5px;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+ .login {
+    text-align: right;
+}
+
+/*---------------
+    MAIN
+---------------*/
+
+/*---------------
+    FOOTER
+---------------*/

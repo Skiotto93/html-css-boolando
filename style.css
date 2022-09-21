@@ -106,7 +106,7 @@ footer {
     max-height: 150px;    
 }
 
-.footer-top, .footer-bottom {
+.footer-top .row, .footer-bottom .row {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -123,4 +123,8 @@ footer {
     text-decoration: none;
     color: inherit;
     margin-right: 10px;
+}
+
+.footer-nav .row {
+    margin-top: 10px;
 }

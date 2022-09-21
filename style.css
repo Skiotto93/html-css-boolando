@@ -153,7 +153,18 @@ header {
     color: red;
 }
 
+.img-hover {
+    display: none;
+}
 
+.imgbox:hover .img-hover {
+    display: block;
+    width: 100%;
+}
+
+.imgbox:hover .img-default {
+    display: none;
+}
 
 /*---------------
     FOOTER

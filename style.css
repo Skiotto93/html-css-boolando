@@ -14,12 +14,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.netto {
+.net {
     color: red;
     font-weight: bold;
 }
 
-.lordo {
+.gross {
     text-decoration: line-through;
 }
 /*---------------
@@ -37,11 +37,21 @@ body {
 small {
     font-size: 12px;
 }
+
+header a, footer a {
+    color: #fff;
+}
+
+.col {
+    position: relative;
+}
+
 /*---------------
     HEADER
 ---------------*/
 header {
     height: 60px;
+    max-width: 1380px;
 }
 
 .header-top {
@@ -53,13 +63,13 @@ header {
     height: 60px;
     background-color: #FF6900;
     color: #fff;
+    z-index: 100;
 }
 .header-top .row {
     align-items: center;
 }
-.logo, .lmain-nav {
+.logo, .main-nav {
     width: 10%;
-    padding: 0 5px;
 }
 .logo {
     width: 80%;
@@ -92,7 +102,55 @@ header {
 }
 
 .col img {
-    width: 100%;
+    width: 100%;   
+}
+
+
+.sustainability {
+    position: absolute;
+    color: #fff;
+    background-color: green;
+    width: 22%;
+    bottom: 100px;
+    left: 45px;
+}
+
+.sale {
+    position: absolute;
+    color: #fff;
+    background-color: red;
+    width: 10%;
+    bottom: 100px;
+    left: 0;
+}
+
+.sustainability2 {
+    position: absolute;
+    color: #fff;
+    background-color: green;
+    width: 22%;
+    bottom: 100px;
+    left: 0px;
+}
+
+.desire {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 40px;
+    width: 50px;
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+}
+
+/*---------------
+    HOVER
+---------------*/
+
+.desire:hover {
+    color: red;
 }
 
 
@@ -103,28 +161,36 @@ header {
 footer {
     background-color: #1a1a1a;
     margin-top: 60px;
-    max-height: 150px;    
+    max-height: 150px;   
 }
 
 .footer-top .row, .footer-bottom .row {
-    display: flex;
     justify-content: space-between;
     text-align: center;
     color: #fff;
     margin-top: 10px;
 }
 
-.footer-nav ul {
+.footer-nav {
     list-style: none;
     display: flex;
 }
 
-.footer-nav ul li a {
+.footer-nav a {
     text-decoration: none;
     color: inherit;
     margin-right: 10px;
+    
 }
 
 .footer-nav .row {
     margin-top: 10px;
+}
+
+#trovaci {
+    margin-right: 88px;
+}
+
+.social {
+    margin-right: 88px;
 }

@@ -33,17 +33,18 @@ small {
     HEADER
 ---------------*/
 header {
-    background-color: #FF6900;
-    color: #fff;
+    height: 60px;
 }
+
 .header-top {
     padding: 16px 0;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;    
-    height: 70px;
+    height: 60px;
     background-color: #FF6900;
+    color: #fff;
 }
 .header-top .row {
     align-items: center;
@@ -71,11 +72,29 @@ header {
 }
  .login {
     text-align: right;
-}
+ }
 
 /*---------------
     MAIN
 ---------------*/
+.col {
+    width: calc(33% - 38px);
+    flex-wrap: wrap;
+    margin: 50px 20px 0 0;
+}
+
+.col img {
+    width: 100%;
+}
+
+.netto {
+    color: red;
+    font-weight: bold;
+}
+
+.lordo {
+    text-decoration: line-through;
+}
 
 /*---------------
     FOOTER

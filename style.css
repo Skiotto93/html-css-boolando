@@ -113,3 +113,14 @@ footer {
     color: #fff;
     margin-top: 10px;
 }
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+}

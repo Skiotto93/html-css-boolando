@@ -14,6 +14,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.netto {
+    color: red;
+    font-weight: bold;
+}
+
+.lordo {
+    text-decoration: line-through;
+}
 /*---------------
     COMMON
 ---------------*/
@@ -87,15 +95,21 @@ header {
     width: 100%;
 }
 
-.netto {
-    color: red;
-    font-weight: bold;
-}
 
-.lordo {
-    text-decoration: line-through;
-}
 
 /*---------------
     FOOTER
 ---------------*/
+footer {
+    background-color: #1a1a1a;
+    margin-top: 60px;
+    max-height: 150px;    
+}
+
+.footer-top, .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
